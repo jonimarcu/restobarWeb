@@ -1,0 +1,32 @@
+body{
+	background:url(img/img1.jpg);
+	background-size: cover;
+}
+
+.banner{
+	margin: 5%;
+	padding: 10px;
+	text-align: center;
+	font-family: fantasy;
+	font: 100px;
+}
+
+.wrapper{
+	background: #fff;
+	opacity: 0.8;
+	width: 90%;
+	margin: 5%;
+	padding: 10px;
+}
+
+#tituloMenu{
+	text-align: center;
+}
+
+#tituloPrecio{
+	text-align: center;
+}
+
+.precio{
+	text-align: center;
+}
