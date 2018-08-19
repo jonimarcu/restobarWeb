@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>El Bodegon</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" type="text/css" href="https://www.dafont.com/slam-3.font">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Bootstrap core CSS -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Material Design Bootstrap -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/css/mdb.min.css" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Navegador -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <a class="navbar-brand" href="#">El Bodegon</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Nosotros</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Carta</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Contactanos</a>
+               </li>
+            </ul>
+            <form class="form-inline">
+               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+               <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+            </form>
+         </div>
+      </nav>
+      <!-- Navegador -->
+      <header>
+         <div class="banner">
+            <h1><b>El Bodegon <b></h1>
+         </div>
+      </header>
+      <section>
+         <div class="wrapper">
+            <h1 id="tituloMenu">Menu</h1>
+            <div class="row">
+               <div class="col-md-6">
+                  <h2><b>Entradas</b></h2>
+                  <p>Nachos con queso y guacamole </p>
+                  <p>Picada(Queso, Fiambres y Snaks)</p>
+                  <p>Triangulos de queso con aderezos</p>
+                  <br>
+                   <h2><b>Menu Ejecutivo</b></h2>
+                  <p>Milanesa c/ pure o ensalada</p>
+                  <p>Omelette de jamón, queso y champignones</p>
+                  <p>1/4 de Pollo con ensalada</p>
+                  <br>
+                   <h2><b>Postres</b></h2>
+                  <p>Panqueque de Dulce de leche</p>
+                  <p>2 Bochas de helado </p>
+                  <p>Scrum de manzana</p>
+                  <br>
+                   <h2><b>Bebidas</b></h2>
+                  <p>Cerveza 1L (Patagonia, Quilmes, Corona)</p>
+                  <p>Coca-Cola</p>
+                  <p>Agua saborizada</p>
+               </div>
+               <div class="col-md-6">
+                  <h2 id="tituloPrecio">Precios</h2>
+                  <p class="precio">$100</p>
+                  <p class="precio">$120</p>
+                  <p class="precio">$120</p>
+                  <br>
+                  <br>
+                  <br>
+                  <p class="precio">$100</p>
+                  <p class="precio">$120</p>
+                  <p class="precio">$120</p>
+                  <br>
+                  <br>
+                  <br>
+                  <p class="precio">$100</p>
+                  <p class="precio">$120</p>
+                  <p class="precio">$120</p>
+                  <br>
+                  <br>
+                  <br>
+                  <p class="precio">$100</p>
+                  <p class="precio">$120</p>
+                  <p class="precio">$120</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Footer -->
+      <footer class="page-footer font-small bg-dark text-white-3">
+         <!-- Footer Elements -->
+         <div class="container">
+            <!-- Grid row-->
+            <div class="row">
+               <!-- Grid column -->
+               <div class="col-md-12 py-5">
+                  <div class="mb-5 flex-center">
+                     <!-- Facebook -->
+                     <a class="fb-ic">
+                     <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                     </a>
+                     <!-- Twitter -->
+                     <a class="tw-ic">
+                     <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                     </a>
+                     <!-- Google +-->
+                     <a class="gplus-ic">
+                     <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                     </a>
+                     <!--Linkedin -->
+                     <a class="li-ic">
+                     <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                     </a>
+                     <!--Instagram-->
+                     <a class="ins-ic">
+                     <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                     </a>
+                     <!--Pinterest-->
+                     <a class="pin-ic">
+                     <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
+                     </a>
+                  </div>
+               </div>
+               <!-- Grid column -->
+            </div>
+            <!-- Grid row-->
+         </div>
+         <!-- Footer Elements -->
+         <!-- Copyright -->
+         <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://www.facebook.com/antarespalermooficial"> Elbodegon.com</a>
+         </div>
+         <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+   </body>
+</html>
